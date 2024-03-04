@@ -1,0 +1,181 @@
+\chapter{Выполнение задания}
+\label{cha:ch_2}
+Задание для курсовой работы наглядно демонстрирует преимущества САПР. В этой главе будет приведено полное описание процесса разаботки детали.
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{79}
+\end{figure}
+\FloatBarrier
+
+\section{Задание для курсовой работы}
+В качестве источника всей информации о детали для построения дан чертёж, приведённый на рисунке \ref{Chertezh}
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{12.jpg}
+\end{figure}
+\label{Chertezh}
+\FloatBarrier
+Так как на чертеже имеются множественные ошибки, деталь во многом построена
+из принципа соответсвия эскизу, а не размерам. Все ошибки, отмеченные во время выполнения задания,риведены в приложении А. 
+Все элементы, размеры которых подверглись изменениям обозначены либо красным (выданый размер неверен), либо зелёным (размер не дан)
+\par
+Ниже будет приведён процесс построения детали.
+\FloatBarrier
+\section{Наложение эскизов}
+Для удобства работы с деталью на базовые плоскости стоит наложить изображения эскиза. Референсным значением для размеров эскиза выбрана величина 250 и подобрана с помощью инструмента масштабирования (для первого эскиза. В параметры последующих вставляются размеры первого).
+Также изображения, для удобства, наложены с прозрачностью по цвету фона чертежа.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{2.png}
+\end{figure}
+\FloatBarrier
+
+\section{Построение полуцилиндров}
+Исходной точкой будет выбрана точка, совпадающая с центром окружности, образующий левый цилиндр. На базовой плоскости "Спереди" построим эскиз обоих полуцилиндров.
+Размеры определяем по чертежу до полного определения(эскиз из синего становится чёрным). 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{цилиндры.png}
+\end{figure}
+\FloatBarrier
+
+Используем инструмент "Вытянутая бобышка"
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{3.png}
+\end{figure}
+\FloatBarrier
+
+Добавляем литейный уклон с помощью инструмента "Уклон" для обоих бобышек по отдельности. 
+В качестве нейтральной выбираем дальнюю от базовой плоскости грань, под уклон выбираем только внешнюю поверхность.
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{4.png}
+\end{figure}
+\FloatBarrier
+
+Отражаем тело относительно базовой плоскости с помощью инструмента "Зеркальное отражение"
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{6.png}
+\end{figure}
+\FloatBarrier
+
+\section{Создание толстого основания}
+На плоскости "Сверху" создаём эскиз и на нём по заданным размерам 
+строим контур основания с учётом литейного уклона.
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{8.png}
+\end{figure}
+\FloatBarrier
+
+Вытягиваем бобышку с уклоном наружу, от смещения но 80мм до базовой плоскости.
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{10.png}
+\end{figure}
+\FloatBarrier
+
+\section{Создание полой крышки}
+На виде "Спереди" строим эскиз внешнего контура крышки (зелёная кривая соответствует 
+положению кривой на виде сверху, поэтому отклоняется от эскиза) 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{11.png}
+\end{figure}
+\FloatBarrier
+
+Вытягиваем бобышку на расстояние, указанное на чертеже. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{12.png}
+\end{figure}
+\FloatBarrier
+
+Аналогично прошлой операции строим эскиз внутреннего контура крышки, но вместо бобышки вытягиваем вырез. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{15.png}
+\end{figure}
+\FloatBarrier
+
+\section{Создание третьего полуцилиндра}
+Строим на плоскости "Справа" эскиз с полуцилиндром. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{16.png}
+\end{figure}
+\FloatBarrier
+
+Вытягиваем бобышку от плоскости смещения по граничному условию "До следующего".
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{17.png}
+\end{figure}
+\FloatBarrier
+
+Создаём на плоскости "Спереди" эскиз повёрнутого выреза на трубе. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{18.png}
+\end{figure}
+\FloatBarrier
+
+Создаём вырез с помощью команды "Повёрнутый вырез" вокруг оси (Справочная линия), построенной на эскизе. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{19.png}
+\end{figure}
+\FloatBarrier
+
+\section{Создание тонкого основания}
+На плоскости "Сверху" создаём эскиз контура основания. Оканчивается контур в любом месте внутри ушек справа.
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{20.png}
+\end{figure}
+\FloatBarrier
+
+Вытягиваем бобышку из эскиза. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{21.png}
+\end{figure}
+\FloatBarrier
+
+\section{Вырезание отверстий}
+Аналогично прошлым операциям строим эскиз вырезов и вытягиваем их насквозь в оба направления. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{23.png}
+\end{figure}
+\FloatBarrier
+
+\section{Создание ушек на трубе}
+Аналогично прошлым операциям создаём эскиз на плоскости "Сверху" и выягиваем от смещения бобышки с уклоном наружу. 
+\FloatBarrier
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{25.png}
+\end{figure}
+\FloatBarrier
+

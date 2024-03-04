@@ -1,0 +1,5 @@
+\selectlanguage *[spelling=modern]{russian}
+\contentsline {chapter}{\CYRV \cyrv \cyre \cyrd \cyre \cyrn \cyri \cyre }{1}{section*.2}%
+\contentsline {chapter}{\numberline {1}Краткий обзор САПР систем}{2}{chapter.1}%
+\contentsline {chapter}{\CYRZ \cyra \cyrk \cyrl \cyryu \cyrch \cyre \cyrn \cyri \cyre }{3}{section*.3}%
+\contentsline {chapter}{\numberline {А}Первое Приложение}{4}{appendix.A}%

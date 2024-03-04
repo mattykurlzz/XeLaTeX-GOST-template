@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 1645558165 "0-main.xdv" "0-main.pdf" "0-main" 1645558165
+  "0-main.xdv" 1645556691 2904 e7bfba5605d6630dae35041bf21162b4 "xelatex"
+  (generated)
+  "0-main.pdf"
+["xelatex"] 1645558155 "c:/Users/Иван/Desktop/Московский Абразивный/ГГАД/шаблон гост/0-main.tex" "0-main.xdv" "0-main" 1645558165
+  "0-main.aux" 1645558155 34 3985256e7290058c681f74d7a3565a19 ""
+  "G2-105.sty" 1645558144 23440 42ff4baa0d631811ad6ac5e5f66b59b2 ""
+  "G7-32.cls" 1421596769 3092 d5bcd5a7839c8c05b85588ba1640c669 ""
+  "GostBase.clo" 1421596769 1139 a86fe98930885ff4b84148e0caa79714 ""
+  "c:/Users/Иван/Desktop/Московский Абразивный/ГГАД/шаблон гост/0-main.tex" 1645558144 1604 98fa59804f369f9bfb88f8c21c8850d5 ""
+  (generated)
+  "0-main.log"
+  "0-main.xdv"
